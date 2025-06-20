@@ -1,0 +1,6 @@
+20-6 
+eerst stap gemaakt met de marktplaats opdracht, begin is altijd lastig tho
+de initiele setup was ik bijna helemaal vergeten en ben niet zeker over bepaalde relaties
+bijvoorbeeld de Message model, lijkt me dat ik daar twee user_id moet hebben, een sender en receiver
+waarschijnlijk een many to many relationship van maken met dus een pivot table, sws al die relationship enzo zijn totaal niet logisch voor me
+vragen!
