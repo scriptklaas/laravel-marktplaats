@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('bids', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id');
+            $table->foreignId('post_id');
+            $table->integer('amount');
             $table->timestamps();
         });
     }

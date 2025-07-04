@@ -24,4 +24,7 @@ class Post extends Model
     public function categories() {
         return $this->hasOne(Category::class);
     }
+    public function messages() {
+        return $this->hasMany(Message::class);
+    }
 }

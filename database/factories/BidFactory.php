@@ -17,7 +17,9 @@ class BidFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'user_id' => $this->faker->numberBetween(1,10),
+            'post_id' => $this->faker->numberBetween(1,50),
+            'amount' => $this->faker->numberBetween(30, 250),
         ];
     }
 }

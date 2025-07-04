@@ -7,7 +7,7 @@
     <h1>Login</h1>
 </div>
 <div>
-    <form method="POST">
+    <form action="{{ route('users.authenticate') }}" method="POST">
         @csrf
         <label for="email">Email address:</label>
         <input type="text" id="email" name="email" required>
